@@ -1,7 +1,441 @@
 {
-    "users": [
-      { "id": 1, "title": "Post 1", "content": "Content for post 1" },
-      { "id": 2, "title": "Post 2", "content": "Content for post 2" }
-         ]
-  }
-  
+  "Users": [
+    {
+      "name": "k Kalyan Kumar",
+      "email": "kummarikalyan010@gmail.com",
+      "password": "123",
+      "id": 1
+    },
+    {
+      "name": "k kalyankumar",
+      "email": "kummarikalyan010@gmail.com",
+      "password": "123",
+      "id": 2
+    },
+    {
+      "name": "k Kalyan Kumar",
+      "email": "",
+      "password": "",
+      "id": 3
+    },
+    {
+      "name": "k Kalyan Kumar",
+      "email": "kummarikalyan010@gmail.com",
+      "password": "",
+      "id": 4
+    },
+    {
+      "name": "k Kalyan Kumar",
+      "email": "kummarikalyan010@gmail.com",
+      "password": "1234",
+      "id": 5
+    },
+    {
+      "name": "k Kalyan Kumar",
+      "email": "kalyan@gmail.com",
+      "password": "123",
+      "id": 6
+    },
+    {
+      "name": "",
+      "email": "",
+      "password": "",
+      "id": 7
+    },
+    {
+      "name": "",
+      "email": "",
+      "password": "",
+      "id": 8
+    },
+    {
+      "name": "k Kalyan Kumar",
+      "email": "k@gmail.com",
+      "password": "123",
+      "id": 9
+    },
+    {
+      "name": "k Kalyan Kumar",
+      "email": "k@gmail.com",
+      "password": "156",
+      "id": 10
+    },
+    {
+      "name": "k Kalyan Kumar",
+      "email": "kummarikalyan010@gmail.com",
+      "password": "123",
+      "id": 11
+    },
+    {
+      "name": "k Kalyan Kumar",
+      "email": "kummarikalyan010@gmail.com",
+      "password": "123",
+      "id": 12
+    },
+    {
+      "name": "k Kalyan Kumar",
+      "email": "kalyan@gmail.com",
+      "password": "456",
+      "id": 13
+    },
+    {
+      "name": "kalyan",
+      "email": "kalyan@gmail.com",
+      "password": "123",
+      "id": 14
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Samsung Galaxy M31s",
+      "description": "The Samsung Galaxy M31s is a smartphone with a 6.5-inch Super AMOLED display, a 64MP quad-camera setup, and a 6000mAh battery.",
+      "price": 18999,
+      "image": "https://rukminim1.flixcart.com/image/832/832/k7f34i80/mobile/h/e/4/samsung-galaxy-m31-sm-m315fzbdins-original-imafpnrzfeyrmq8a.jpeg?q=70",
+      "category": "Smartphones",
+      "inventory": 50
+    },
+    {
+      "id": 2,
+      "name": "Apple iPhone 12",
+      "description": "The Apple iPhone 12 is a high-end smartphone with a 6.1-inch Super Retina XDR display, an A14 Bionic chip, and 5G connectivity.",
+      "price": 79900,
+      "image": "https://rukminim1.flixcart.com/image/312/312/kg8avm80/mobile/r/h/z/apple-iphone-12-dummyapplefsn-original-imafwg8duby8qbn4.jpeg?q=70",
+      "category": "Smartphones",
+      "inventory": 20
+    },
+    {
+      "id": 3,
+      "name": "OnePlus 8T",
+      "description": "The OnePlus 8T is a high-performance smartphone with a 6.55-inch Fluid AMOLED display, a quad-camera setup, and Warp Charge 65.",
+      "price": 42999,
+      "image": "https://www.saasna.com/224-large_default/oneplus-8t-5g-aquamarine-green-256-gb-12-gb-ram.jpg",
+      "category": "Smartphones",
+      "inventory": 30
+    },
+    {
+      "id": 4,
+      "name": "Xiaomi Redmi Note 10S",
+      "description": "The Xiaomi Redmi Note 10S features a 6.43-inch Super AMOLED display, a quad-camera setup, and the MediaTek Helio G95 chipset.",
+      "price": 14999,
+      "image": "https://rukminim1.flixcart.com/image/312/312/kyeqjrk0/mobile/y/u/t/-original-imagan9qzdf2hbgy.jpeg?q=70",
+      "category": "Smartphones",
+      "inventory": 40
+    },
+    {
+      "id": 5,
+      "name": "Samsung Galaxy M12",
+      "description": "The Samsung Galaxy M12 is a budget smartphone with a 6.5-inch HD+ display, a quad-camera setup, and a 5000mAh battery.",
+      "price": 10999,
+      "image": "https://rukminim1.flixcart.com/image/312/312/kmwcuq80/mobile/m/1/b/galaxy-m12-galaxy-m12-samsung-original-imagfzunsgwpfgbd.jpeg?q=70",
+      "category": "Smartphones",
+      "inventory": 50
+    },
+    {
+      "id": 6,
+      "name": "Realme Narzo 30 Pro 5G",
+      "description": "The Realme Narzo 30 Pro 5G is a mid-range smartphone with a 6.5-inch IPS LCD display, a triple-camera setup, and a 5000mAh battery.",
+      "price": 16999,
+      "image": "https://rukminim1.flixcart.com/image/312/312/klgx0280/mobile/c/c/s/narzo-30-pro-5g-rmx2117-realme-original-imagyhbkbaa5pjb2.jpeg?q=70",
+      "category": "Smartphones",
+      "inventory": 25
+    },
+    {
+      "id": 7,
+      "name": "Xiaomi Redmi Note 10 Pro Max",
+      "description": "The Xiaomi Redmi Note 10 Pro Max is a smartphone with a 6.67-inch Super AMOLED display, a quad-camera setup, and a 5020mAh battery.",
+      "price": 19999,
+      "image": "https://rukminim1.flixcart.com/image/312/312/xif0q/mobile/u/y/5/-original-imaghfn2zmefy8t9.jpeg?q=70",
+      "category": "Smartphones",
+      "inventory": 30
+    },
+    {
+      "id": 8,
+      "name": "Apple iPhone SE (2020)",
+      "description": "The Apple iPhone SE (2020) is a budget smartphone with a 4.7-inch Retina HD display, an A13 Bionic chip, and a 12MP camera.",
+      "price": 32999,
+      "image": "https://rukminim1.flixcart.com/image/312/312/j7qi9ow0/mobile/h/f/t/apple-iphone-6s-mn0x2hn-a-original-imaexw7fpbbfwwtw.jpeg?q=70",
+      "category": "Smartphones",
+      "inventory": 15
+    },
+    {
+      "id": 9,
+      "name": "OnePlus Nord CE 5G",
+      "description": "The OnePlus Nord CE 5G is a mid-range smartphone with a 6.43-inch Fluid AMOLED display, a triple-camera setup, and a 4500mAh battery.",
+      "price": 24999,
+      "image": "https://rukminim1.flixcart.com/image/312/312/xif0q/mobile/k/w/k/-original-imagg2abzhxjckxu.jpeg?q=70",
+      "category": "Smartphones",
+      "inventory": 40
+    },
+    {
+      "id": 10,
+      "name": "Samsung Galaxy A52s 5G",
+      "description": "The Samsung Galaxy A52s 5G is a mid-range smartphone with a 6.5-inch Super AMOLED display, a quad-camera setup, and a 4500mAh battery.",
+      "price": 35999,
+      "image": "https://rukminim1.flixcart.com/image/312/312/kt0enww0/mobile/s/e/j/galaxy-a52s-5g-sm-a528bzkdins-samsung-original-imag6fmjdf6agwzz.jpeg?q=70",
+      "category": "Smartphones",
+      "inventory": 20
+    },
+    {
+      "id": 11,
+      "name": "Redmi 9A",
+      "description": "The Redmi 9A is a budget smartphone with a 6.53-inch HD+ display, a 13MP camera, and a 5000mAh battery.",
+      "price": 7499,
+      "image": "https://rukminim1.flixcart.com/image/312/312/kesv0y80/mobile/w/g/r/mi-redmi-9a-b08696xb4b-original-imafve7pjpemhwk5.jpeg?q=70",
+      "category": "Smartphones",
+      "inventory": 50
+    },
+    {
+      "id": 12,
+      "name": "Realme C25",
+      "description": "The Realme C25 is a budget smartphone with a 6.5-inch HD+ display, a triple-camera setup, and a 6000mAh battery.",
+      "price": 9999,
+      "image": "https://rukminim1.flixcart.com/image/312/312/ktlu9ow0/mobile/p/c/u/c25y-rmx3265-realme-original-imag6wmjczbfhk4w.jpeg?q=70",
+      "category": "Smartphones",
+      "inventory": 35
+    },
+    {
+      "id": 13,
+      "name": "Vivo Y12s",
+      "description": "The Vivo Y12s is a budget smartphone with a 6.51-inch HD+ display, a dual-camera setup, and a 5000mAh battery.",
+      "price": 10990,
+      "image": "https://rukminim1.flixcart.com/image/312/312/xif0q/mobile/j/v/z/-original-imaggcerjgnshnyw.jpeg?q=70",
+      "category": "Smartphones",
+      "inventory": 25
+    },
+    {
+      "id": 14,
+      "name": "Oppo F19 Pro+ 5G",
+      "description": "The Oppo F19 Pro+ 5G is a mid-range smartphone with a 6.43-inch Super AMOLED display, a quad-camera setup, and a 4310mAh battery.",
+      "price": 25990,
+      "image": "https://rukminim1.flixcart.com/image/312/312/kn97te80/mobile/p/m/9/f19-pro-5g-cph2213-oppo-original-imagfz38hbzjhkqx.jpeg?q=70",
+      "category": "Smartphones",
+      "inventory": 20
+    },
+    {
+      "id": 15,
+      "name": "Samsung Galaxy M52 5G",
+      "description": "The Samsung Galaxy M52 5G is a mid-range smartphone with a 6.7-inch Super AMOLED display, a triple-camera setup, and a 5000mAh battery.",
+      "price": 28999,
+      "image": "https://rukminim1.flixcart.com/image/312/312/xif0q/mobile/p/5/r/-original-imag7h2tmrsaugcz.jpeg?q=70",
+      "category": "Smartphones",
+      "inventory": 30
+    },
+    {
+      "id": 16,
+      "name": "Apple iPhone XR",
+      "description": "The Apple iPhone XR features a 6.1-inch Liquid Retina display, a 12MP camera system, and the A12 Bionic chip.",
+      "price": 42999,
+      "image": "https://rukminim1.flixcart.com/image/312/312/jnj7iq80/mobile/r/k/h/apple-iphone-xr-mrya2hn-a-original-imafa6zkgrdrpuby.jpeg?q=70",
+      "category": "Smartphones",
+      "inventory": 20
+    },
+    {
+      "id": 17,
+      "name": "OnePlus 9 Pro",
+      "description": "The OnePlus 9 Pro features a 6.7-inch Fluid AMOLED display, a quad-camera setup, and the Snapdragon 888 chipset.",
+      "price": 64999,
+      "image": "https://rukminim1.flixcart.com/image/312/312/l27wtjk0/mobile/i/t/v/9-pro-le2121-oneplus-original-imagdm32wypz44tr.jpeg?q=70",
+      "category": "Smartphones",
+      "inventory": 15
+    },
+    {
+      "id": 18,
+      "name": "Xiaomi Redmi Note 10S",
+      "description": "The Xiaomi Redmi Note 10S features a 6.43-inch Super AMOLED display, a quad-camera setup, and the MediaTek Helio G95 chipset.",
+      "price": 14999,
+      "image": "https://rukminim1.flixcart.com/image/312/312/kyeqjrk0/mobile/y/u/t/-original-imagan9qzdf2hbgy.jpeg?q=70",
+      "category": "Smartphones",
+      "inventory": 40
+    },
+    {
+      "id": 19,
+      "name": "Samsung Galaxy A12",
+      "description": "The Samsung Galaxy A12 features a 6.5-inch HD+ display, a quad-camera setup, and a 5000mAh battery.",
+      "price": 12999,
+      "image": "https://rukminim1.flixcart.com/image/312/312/krz97rk0/mobile/g/3/m/galaxy-a12-exynos-850-sm-a127fzwjins-samsung-original-imag5n52vmhdygr2.jpeg?q=70",
+      "category": "Smartphones",
+      "inventory": 25
+    },
+    {
+      "id": 20,
+      "name": "Realme 8 Pro",
+      "description": "The Realme 8 Pro features a 6.4-inch Super AMOLED display, a quad-camera setup with a 108MP primary sensor, and a 4500mAh battery.",
+      "price": 17999,
+      "image": "https://rukminim1.flixcart.com/image/312/312/kmmcrrk0/mobile/5/w/u/8-pro-rmx3081-realme-original-imagfgpgcxyjufz3.jpeg?q=70",
+      "category": "Smartphones",
+      "inventory": 30
+    },
+    {
+      "id": 21,
+      "name": "Vivo Y51A",
+      "description": "The Vivo Y51A features a 6.58-inch Full HD+ display, a triple-camera setup, and a 5000mAh battery.",
+      "price": 17990,
+      "image": "https://rukminim1.flixcart.com/image/312/312/kk1h5e80/mobile/3/7/u/vivo-y51a-v2031-original-imafzh2ud9t3wsm7.jpeg?q=70",
+      "category": "Smartphones",
+      "inventory": 15
+    },
+    {
+      "id": 22,
+      "name": "Vivo Y51A",
+      "description": "The Vivo Y51A features a 6.58-inch Full HD+ display, a triple-camera setup, and a 5000mAh battery.",
+      "price": 17990,
+      "image": "https://rukminim1.flixcart.com/image/312/312/kk1h5e80/mobile/3/7/u/vivo-y51a-v2031-original-imafzh2ud9t3wsm7.jpeg?q=70",
+      "category": "Smartphones",
+      "inventory": 15
+    },
+    {
+      "id": 23,
+      "name": "Oppo A53",
+      "description": "The Oppo A53 features a 6.5-inch HD+ display, a triple-camera setup, and a 5000mAh",
+      "price": 17990,
+      "image": "https://rukminim1.flixcart.com/image/312/312/kmax8y80/mobile/r/y/g/a53-cph2127-oppo-original-imagf8hxxendurgm.jpeg?q=70",
+      "category": "Smartphones",
+      "inventory": 15
+    },
+    {
+      "id": 24,
+      "name": "LG W31 Plus",
+      "description": "The LG W31 Plus features a 6.52-inch HD+ display, a triple-camera setup, and a 4000mAh battery.",
+      "price": 10999,
+      "image": "https://rukminim1.flixcart.com/image/312/312/ko7idu80/mobile/5/9/9/w31-plus-lmk315im-lg-original-imag2prq5myhthzh.jpeg?q=70",
+      "category": "Smartphones",
+      "inventory": 10
+    },
+    {
+      "id": 25,
+      "name": "Nokia 5.4",
+      "description": "The Nokia 5.4 features a 6.39-inch HD+ display, a quad-camera setup, and a 4000mAh battery.",
+      "price": 13999,
+      "image": "https://rukminim1.flixcart.com/image/312/312/kkwwu4w0/mobile/u/i/w/5-4-hq5020m514000-nokia-original-imagy5bqcnefyzdk.jpeg?q=70",
+      "category": "Smartphones",
+      "inventory": 20
+    },
+    {
+      "id": 26,
+      "name": "Infinix Hot 10S",
+      "description": "The Infinix Hot 10S features a 6.82-inch HD+ display, a triple-camera setup, and a 6000mAh battery.",
+      "price": 9999,
+      "image": "https://rukminim1.flixcart.com/image/312/312/kqfj1jk0/mobile/0/5/v/hot-10s-x689-64-4-infinix-original-imag4fk5fgqujb8a.jpeg?q=70",
+      "category": "Smartphones",
+      "inventory": 30
+    },
+    {
+      "id": 27,
+      "name": "Tecno Spark 7T",
+      "description": "The Tecno Spark 7T features a 6.52-inch HD+ display, a dual-camera setup, and a 6000mAh battery.",
+      "price": 8999,
+      "image": "https://rukminim1.flixcart.com/image/312/312/ktop5e80/mobile/r/o/n/spark-7t-kf6p-tecno-original-imag6zyz9zgupv6q.jpeg?q=70",
+      "category": "Smartphones",
+      "inventory": 35
+    },
+    {
+      "id": 28,
+      "name": "POCO X3 Pro",
+      "description": "The POCO X3 Pro features a 6.67-inch Full HD+ display, a quad-camera setup, and the Snapdragon 860 chipset.",
+      "price": 18999,
+      "image": "https://rukminim1.flixcart.com/image/312/312/kr9jafk0/mobile/7/z/v/x3-pro-mzb08ifin-poco-original-imag52zmyskucgrp.jpeg?q=70",
+      "category": "Smartphones",
+      "inventory": 15
+    },
+    {
+      "id": 31,
+      "name": "Samsung Galaxy A21s",
+      "description": "The Samsung Galaxy A21s features a 6.5-inch HD+ display, a quad-camera setup, and a 5000mAh battery.",
+      "price": 18499,
+      "image": "https://rukminim1.flixcart.com/image/312/312/kbi9h8w0/mobile/q/2/x/samsung-galaxy-a21s-sm-a217fzbfins-original-imafsuyataz9hpmz.jpeg?q=70",
+      "category": "Smartphones",
+      "inventory": 15
+    },
+    {
+      "id": 30,
+      "name": "Nokia 5.4",
+      "description": "The Nokia 5.4 features a 6.39-inch HD+ display, a quad-camera setup, and a 4000mAh battery.",
+      "price": 13999,
+      "image": "https://rukminim1.flixcart.com/image/312/312/kkwwu4w0/mobile/u/i/w/5-4-hq5020m514000-nokia-original-imagy5bqcnefyzdk.jpeg?q=70",
+      "category": "Smartphones",
+      "inventory": 20
+    },
+    {
+      "id": 31,
+      "name": "Samsung Galaxy A21s",
+      "description": "The Samsung Galaxy A21s features a 6.5-inch HD+ display, a quad-camera setup, and a 5000mAh battery.",
+      "price": 15499,
+      "image": "https://rukminim1.flixcart.com/image/312/312/kbi9h8w0/mobile/q/2/x/samsung-galaxy-a21s-sm-a217fzbfins-original-imafsuyataz9hpmz.jpeg?q=70",
+      "category": "Smartphones",
+      "inventory": 15
+    },
+    {
+      "id": 32,
+      "name": "Realme C11 (2021)",
+      "description": "The Realme C11 (2021) features a 6.5-inch HD+ display, a dual-camera setup, and a 5000mAh battery.",
+      "price": 7999,
+      "image": "https://rukminim1.flixcart.com/image/312/312/kqjtd3k0/mobile/s/b/8/c11-2021-rmx3231-realme-original-imag4j4xkqchhfxk.jpeg?q=70",
+      "category": "Smartphones",
+      "inventory": 20
+    },
+    {
+      "id": 33,
+      "name": "Oppo A53s",
+      "description": "The Oppo A53s features a 6.5-inch HD+ display, a triple-camera setup, and a 5000mAh battery.",
+      "price": 13990,
+      "image": "https://rukminim1.flixcart.com/image/312/312/knyxqq80/mobile/1/c/5/a53s-5g-cph2321-oppo-original-imag2gwzzxmkwgsn.jpeg?q=70",
+      "category": "Smartphones",
+      "inventory": 10
+    },
+    {
+      "id": 34,
+      "name": "Redmi Note 10S",
+      "description": "The Redmi Note 10S features a 6.43-inch Full HD+ display, a quad-camera setup, and a 5000mAh battery.",
+      "price": 14999,
+      "image": "https://rukminim1.flixcart.com/image/312/312/kyeqjrk0/mobile/y/u/t/-original-imagan9qzdf2hbgy.jpeg?q=70",
+      "category": "Smartphones",
+      "inventory": 25
+    },
+    {
+      "id": 35,
+      "name": "OnePlus Nord CE 5G",
+      "description": "The OnePlus Nord CE 5G features a 6.43-inch Full HD+ AMOLED display, a triple-camera setup, and the Snapdragon 750G chipset.",
+      "price": 22999,
+      "image": "https://rukminim1.flixcart.com/image/312/312/xif0q/mobile/k/w/k/-original-imagg2abzhxjckxu.jpeg?q=70",
+      "category": "Smartphones",
+      "inventory": 5
+    },
+    {
+      "id": 36,
+      "name": "Vivo Y51A",
+      "description": "The Vivo Y51A features a 6.58-inch Full HD+ display, a triple-camera setup, and a 5000mAh battery.",
+      "price": 17990,
+      "image": "https://rukminim1.flixcart.com/image/312/312/kk1h5e80/mobile/3/7/u/vivo-y51a-v2031-original-imafzh2ud9t3wsm7.jpeg?q=70",
+      "category": "Smartphones",
+      "inventory": 15
+    },
+    {
+      "id": 37,
+      "name": "Moto G60",
+      "description": "The Moto G60 features a 6.8-inch Full HD+ display, a triple-camera setup, and a 6000mAh battery.",
+      "price": 17999,
+      "image": "https://rukminim1.flixcart.com/image/312/312/l0o6nbk0/mobile/y/s/e/-original-imagceu559m75mks.jpeg?q=70",
+      "category": "Smartphones",
+      "inventory": 10
+    },
+    {
+      "id": 38,
+      "name": "iQOO 7",
+      "description": "The iQOO 7 features a 6.62-inch Full HD+ AMOLED display, a triple-camera setup, and the Snapdragon 870 chipset.",
+      "price": 31990,
+      "image": "https://rukminim1.flixcart.com/image/312/312/xif0q/mobile/n/v/f/neo-7-5g-i2214-iqoo-original-imagnaqpyd7nxfku.jpeg?q=70",
+      "category": "Smartphones",
+      "inventory": 5
+    },
+    {
+      "id": 39,
+      "name": "Nokia G20",
+      "description": "The Nokia G20 features a 6.5-inch HD+ display, a quad-camera setup, and a 5050mAh battery.",
+      "price": 12999,
+      "image": "https://rukminim1.flixcart.com/image/312/312/ktd9mkw0/mobile/l/o/r/g20-ta-1365-ds-4-64-nokia-g20-nokia-original-imag6q3qqph44qeu.jpeg?q=70",
+      "category": "Smartphones",
+      "inventory": 10
+    }
+  ]
+}

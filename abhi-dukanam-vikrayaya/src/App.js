@@ -1,15 +1,19 @@
 
+import { BrowserRouter } from 'react-router-dom';
 import './App.css';
-import Navbars from './Components/Hompage/Navbar';
-
+import Allroutes from './Routes/Route';
+import 'react-toastify/dist/ReactToastify.css';
 
 function App() {
   return (
     <div className="App">
-      <Navbars/>
-      
+     <BrowserRouter>
      
-      
+
+     
+     <Allroutes/>
+    
+     </BrowserRouter>
   
     </div>
   );
